@@ -18,7 +18,7 @@ def verify_combination(M, stocks):
 
 def total_value(stocks):
     # Calculate the total value of the selected stocks
-    return sum(stock[1] for stock in stocks)
+    return sum(stock[0] for stock in stocks)
 
 def main():
     with open("input.txt", "r") as input_file:
